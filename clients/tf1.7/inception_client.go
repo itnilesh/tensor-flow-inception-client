@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	tf_core_framework  "github.com/itnilesh/tensor-flow-inception-client/tensorflow/core/framework"
-	pb "github.com/itnilesh/tensor-flow-inception-client/tensorflow_serving/apis"
+	tf_core_framework  "github.com/itnilesh/tensor-flow-inception-client/proto/tensorflow/core/framework"
+	pb "github.com/itnilesh/tensor-flow-inception-client/proto/tensorflow_serving/apis"
 
 	google_protobuf "github.com/golang/protobuf/ptypes/wrappers"
 
