@@ -6,7 +6,7 @@ package tensorflow_serving
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import example "tensorflow/core/example"
+import example "github.com/itnilesh/tensor-flow-inception-client/tensorflow/core/example"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

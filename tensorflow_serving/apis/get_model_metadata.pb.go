@@ -7,7 +7,7 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import any "github.com/golang/protobuf/ptypes/any"
-import protobuf "tensorflow/core/protobuf"
+import protobuf "github.com/itnilesh/tensor-flow-inception-client/tensorflow/core/protobuf"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
