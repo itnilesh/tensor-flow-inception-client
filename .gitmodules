@@ -1,0 +1,8 @@
+[submodule "serving"]
+	path = serving
+	url = https://github.com/tensorflow/serving.git
+	branch = r1.7
+[submodule "tensorflow"]
+	path = tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
+	branch = r1.7
