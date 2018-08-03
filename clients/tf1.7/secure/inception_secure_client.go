@@ -4,7 +4,6 @@ package main
 import (
 	"context"
 	"flag"
-	"fmt"
 	google_protobuf "github.com/golang/protobuf/ptypes/wrappers"
 	tf_core_framework "github.com/itnilesh/tensor-flow-inception-client/proto/tensorflow/core/framework"
 	pb "github.com/itnilesh/tensor-flow-inception-client/proto/tensorflow_serving/apis"
@@ -48,9 +47,10 @@ func main() {
 
 	flag.Parse()
 
-	fmt.Printf(" passed flags are >>  --serving-address %s  --auth-token %s --image-file-path %s --cert-file-path %s ", *servingAddress, *authToken, *imageFilePath, *certFilePath)
+	log.Printf(" passed flags are >>  --serving-address %s  --auth-token %s --image-file-path %s --cert-file-path %s ", *servingAddress, *authToken, *imageFilePath, *certFilePath)
+
 	if len(*servingAddress) == 0 {
-		log.Fatalln("Please pass reauired flag --serving-address")
+		log.Fatalln("Please pass required flag --serving-address")
 	}
 
 	if len(*authToken) == 0 {
@@ -58,7 +58,7 @@ func main() {
 	}
 
 	if len(*imageFilePath) == 0 {
-		log.Fatalln("Please reauired flag --image-file-path")
+		log.Fatalln("Please required flag --image-file-path")
 	}
 
 	if len(*certFilePath) == 0 {
