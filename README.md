@@ -5,10 +5,8 @@ If you have just up tensorflow docker locally and want to do inference against i
 
 Run command from root mentioned below 
 
-`
-~/src/github.com/itnilesh/tensor-flow-inception-client/bin/secure
+` ~/src/github.com/itnilesh/tensor-flow-inception-client/bin/secure`
 
-`
 `
 bash-3.2$ ./inception_secure_client  --serving-address localhost:9000  --image-file-path ./../../clients/resources/models/inception/image_54_mb.jpg
  passed flags are >>  --serving-address localhost:9000  --auth-token  --image-file-path ./../../clients/resources/models/inception/image_54_mb.jpg --cert-file-path  2018/08/03 18:19:26 Warn: --auth-token flag  is not passed
