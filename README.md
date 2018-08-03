@@ -1,6 +1,11 @@
 # tensor-flow-inception-client
 Simple grpc client for tensorflow with inception in Go.
 
+First run inception container as per 
+
+https://www.tensorflow.org/serving/serving_inception
+
+
 If you have just up tensorflow docker locally and want to do inference against inception model then 
 
 Run command from root mentioned below 
